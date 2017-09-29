@@ -1,0 +1,83 @@
+body {
+    font-family: Arial, Georgia, sans-serif;
+    font-weight: 300;
+    line-height: 1.4em;
+    background-color: #FFF0F5;
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    height: 20px;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.positioner-fix::after {
+    display: table;
+    content: "";
+    clear: both;
+}
+
+.positioner {
+    max-width: 900px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 10px;
+}
+
+.contacs__link-vk,
+.contacs__link-email,
+.contacs__text title-phone {
+    display: inline-block;
+    margin-right: 50px
+}
+
+.contacs {
+    clear: both;
+}
+
+.profile-photo {
+    display: block;
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+}
+
+.info {
+    padding: 10px;
+}
+
+.info__name {
+    font-weight: bold;
+    font-size: 35px;
+    color: #000000;
+}
+
+h3 {
+    font-size: 25px;
+    color: #000000;
+}
+
+
+.left-block {
+    width: 50%;
+}
+
+.main-block {
+    width: 50%;
+
+}
+
+.left-block,
+.main-block {
+    float: left;
+}
+
+.contacs__list,
+.education__list,
+.exp__list {
+    padding-left: 17px;
+}
