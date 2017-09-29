@@ -1,10 +1,14 @@
 body {
-    font-family: Gill Sans, sans-serif;
+    font-family: Arial, Georgia, sans-serif;
     font-weight: 300;
     line-height: 1.4em;
+    background-color: #FFF0F5;
     margin: 0;
     padding: 0;
+}
 
+.header {
+    height: 20px;
 }
 
 * {
@@ -48,12 +52,15 @@ body {
 
 .info__name {
     font-weight: bold;
-    font-size: 30px;
+    font-size: 35px;
+    color: #000000;
 }
 
 h3 {
-    font-size: 20px;
+    font-size: 25px;
+    color: #000000;
 }
+
 
 .left-block {
     width: 50%;
