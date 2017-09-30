@@ -118,7 +118,7 @@ body {
 
 .info__name {
     font-weight: bold;
-    font-size: 35px;
+    font-size: 30px;
     color: #000000;
 }
 
@@ -160,4 +160,8 @@ h3 {
         float: left;
         width: auto;
     }
+}
+
+@media (min-width: 481px) and (max-width: 768px) {
+
 }
