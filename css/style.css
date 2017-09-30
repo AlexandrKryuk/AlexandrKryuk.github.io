@@ -163,5 +163,8 @@ h3 {
 }
 
 @media (min-width: 481px) and (max-width: 768px) {
-
+    
+    .info__name {
+        line-height: 1.4em;
+    }
 }
